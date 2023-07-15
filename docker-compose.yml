@@ -1,6 +1,7 @@
 version : "3.3"
 services :
   web :
+     image: kush1231234/django-app1
      build : .
      ports :
          - "8000:8000"
